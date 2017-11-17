@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#795548"
+    tools:context="com.example.pangling.appsjamu.KonsultasiActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Macam Penyakit"
+        android:id="@+id/textView5"
+        android:layout_alignParentTop="true"
+        android:textColor="#fff"
+        android:layout_alignParentStart="true" />
+
+    <Spinner
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:id="@+id/spinner"
+        android:layout_below="@+id/textView5"
+        android:background="#a1887f"
+        android:layout_alignParentStart="true"
+        android:entries="@array/array_name"/>
+
+    <Button
+        android:layout_width="88dp"
+        android:layout_height="36dp"
+        android:text="Add+"
+        android:textColor="#fff"
+        android:id="@+id/btnAdd"
+        android:background="#5d4037"
+        android:layout_below="@+id/spinner"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="18dp" />
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="wrap_content"
+        android:layout_height="230sp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/btnAdd"
+        android:layout_marginTop="39dp"
+        android:background="#a1887f"
+        android:footerDividersEnabled="false"
+        tools:theme="@android:style/Widget.ListView.White" />
+
+    <Button
+        android:id="@+id/btnKonsul"
+        android:layout_width="fill_parent"
+        android:layout_height="36dp"
+        android:layout_alignEnd="@+id/btnAdd"
+        android:layout_below="@+id/listView"
+        android:layout_marginTop="34dp"
+        android:background="#5d4037"
+        android:text="Konsultasi"
+        android:textColor="#fff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Daftar Penyakit"
+        android:id="@+id/textView8"
+        android:textColor="#fff"
+        android:layout_below="@+id/btnAdd"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>

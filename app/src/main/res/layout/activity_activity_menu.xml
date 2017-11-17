@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.pangling.appsjamu.ActivityMenu"
+    android:background="#5d4037">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Menu Form"
+        android:textColor="#fff"
+        android:textAlignment="center"
+        android:id="@+id/textView4"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:layout_marginTop="49dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/btnKonsultasi"
+        android:layout_width="88dp"
+        android:layout_height="36dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toStartOf="@+id/btnHistory"
+        android:background="#D4A16A"
+        android:text="Konsutasi Obat" />
+
+    <Button
+        android:id="@+id/btnHistory"
+        android:layout_width="88dp"
+        android:layout_height="36dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="14dp"
+        android:layout_toStartOf="@+id/btnArtikel"
+        android:background="#D4A16A"
+        android:text="History Konsultasi" />
+
+    <Button
+        android:id="@+id/btnArtikel"
+        android:layout_width="90dp"
+        android:layout_height="36dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="11dp"
+        android:background="#D4A16A"
+        android:text="Artikel Sekitar" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView4"
+        android:layout_below="@+id/textView4"
+        android:layout_marginTop="55dp"
+        android:background="#5d4037"
+        android:tint="@android:color/background_light"
+        app:srcCompat="?android:attr/actionModeFindDrawable" />
+</RelativeLayout>

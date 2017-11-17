@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">AppsJamu</string>
+    //ini untuk logout
+    <string name="action_settings">Logout</string>
+
+    //ini untuk combobox
+    <string-array name="array_name">
+        <item>Menambah nafsu makan</item>
+        <item>Menghilangkan pegal linu</item>
+        <item>Meningkatkan stamina</item>
+        <item>Sakit perut karena datang bulan</item>
+        <item>Mencerahkan kulit</item>
+        <item>Peradangan lambung</item>
+        <item>Maag</item>
+        <item>Sakit pinggang</item>
+        <item>Kesemutan</item>
+        <item>Mencegah diabetes</item>
+        <item>Terapi cuci darah</item>
+        <item>Meningkatkan produk ASI</item>
+        <item>Menghilangkan bau badan</item>
+        <item>Menghilangkan kembung</item>
+        <item>Meredakan demam</item>
+        <item>Pusing</item>
+        <item>Mual</item>
+        <item>Gejala masuk angin</item>
+        <item>Menghilangkan Jerawat</item>
+    </string-array>
+</resources>
